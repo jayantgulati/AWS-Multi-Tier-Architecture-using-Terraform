@@ -12,8 +12,11 @@ In the Application tier,a backend auto-scaling group is established for the back
 
 **Before you begin, ensure that you have the following prerequisites:**
 
-AWS account credentials (access key ID and secret access key).
-Terraform installed on your local machine. You can download Terraform from the official website: https://www.terraform.io/downloads.html.
-Basic knowledge of AWS services such as EC2, VPC, ELB, ASG.
-Familiarity with the basics of Terraform, including how to write Terraform configuration files (.tf).
+1.AWS account credentials (access key ID and secret access key).
+
+2.Terraform installed on your local machine. You can download Terraform from the official website: https://www.terraform.io/downloads.html.
+
+3.Basic knowledge of AWS services such as EC2, VPC, ELB, ASG.
+
+4.Familiarity with the basics of Terraform, including how to write Terraform configuration files (.tf).
 
