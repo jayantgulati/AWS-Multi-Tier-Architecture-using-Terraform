@@ -20,3 +20,8 @@ In the Application tier,a backend auto-scaling group is established for the back
 
 4.Familiarity with the basics of Terraform, including how to write Terraform configuration files (.tf).
 
+# Steps
+
+Follow these step-by-step instructions to deploy a three-tier architecture on AWS using Terraform:
+
+
