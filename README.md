@@ -8,8 +8,9 @@ In the Web tier, an Elastic Load Balancer (ELB) and NAT gateway are provisioned 
 
 In the Application tier,a backend auto-scaling group is established for the backend application. A script will be created to install the Apache web server on the frontend instances.
 
-**Prerequisites
-Before you begin, ensure that you have the following prerequisites:**
+# Prerequisites
+
+**Before you begin, ensure that you have the following prerequisites:**
 
 AWS account credentials (access key ID and secret access key).
 Terraform installed on your local machine. You can download Terraform from the official website: https://www.terraform.io/downloads.html.
