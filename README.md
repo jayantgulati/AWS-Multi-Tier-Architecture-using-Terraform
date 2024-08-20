@@ -8,6 +8,9 @@ In the Web Tier, an Elastic Load Balancer (ELB) and NAT gateway are deployed wit
 
 In the Application Tier, a backend auto-scaling group is set up to manage the backend application. Additionally, a script will be used to install the Apache web server on the frontend instances.
 
+![image](https://github.com/user-attachments/assets/df81c461-ccde-4f2a-ae46-c827bbcc3f2f)
+
+
 # Prerequisites
 
 **Before you begin, ensure that you have the following prerequisites:**
