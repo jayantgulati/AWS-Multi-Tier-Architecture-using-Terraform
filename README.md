@@ -1,12 +1,12 @@
 # AWS-Multi-Tier-Architecture-using-Terraform
 
-This project implements a multi-tier architecture on AWS using Terraform. The infrastructure consists of a Web Tier and an Application Tier, designed to provide a scalable and secure environment for deploying applications. 
+This project sets up a multi-tier architecture on AWS using Terraform. The infrastructure includes a Web Tier and an Application Tier, designed to deliver a scalable, secure, and highly available environment for application deployment.
 
-This setup will create a scalable, secure, and highly available infrastructure, with distinct layers that communicate seamlessly. The architecture includes an Amazon Virtual Private Cloud (VPC), Elastic Load Balancer (ELB), Auto Scaling Group (ASG).
+The architecture consists of an Amazon Virtual Private Cloud (VPC), Elastic Load Balancer (ELB), and Auto Scaling Group (ASG). These components work together to create distinct layers that communicate seamlessly.
 
-In the Web tier, an Elastic Load Balancer (ELB) and NAT gateway are provisioned within the public subnets. The Elastic Load Balancer (ELB) serves as the access point to the underlying infrastructure, while the NAT gateway allows private subnets to communicate with the internet, maintaining security by hiding the private IP addresses of instances from the public internet.
+In the Web Tier, an Elastic Load Balancer (ELB) and NAT gateway are deployed within public subnets. The ELB acts as the entry point to the infrastructure, while the NAT gateway allows instances in private subnets to access the internet while keeping their private IP addresses hidden for security.
 
-In the Application tier,a backend auto-scaling group is established for the backend application. A script will be created to install the Apache web server on the frontend instances.
+In the Application Tier, a backend auto-scaling group is set up to manage the backend application. Additionally, a script will be used to install the Apache web server on the frontend instances.
 
 # Prerequisites
 
@@ -27,6 +27,7 @@ Follow these step-by-step instructions to deploy a three-tier architecture on AW
 # Step 1: Clone the Repository
 
 1. Open a terminal or command prompt on your local machine.
+
 2. Clone the repository containing the Terraform configuration files
 
    `git clone https://github.com/AWS-Multi-Tier-Architecture-using-Terraform.git`
@@ -86,7 +87,7 @@ Follow these step-by-step instructions to deploy a three-tier architecture on AW
 
 3. If everything is configured correctly, you should see the application running.
 
-# Step 9: Destroy the Infrastructure (Optional)
+# Step 9: Destroy the Infrastructure (Optional- It will save unneccessary cost)
 
 To remove all resources created by Terraform, follow these steps:
 
@@ -96,9 +97,11 @@ To remove all resources created by Terraform, follow these steps:
 
    `terraform destroy`
 
-3. Type yes to confirm and proceed with the destruction.
+3. Type `yes` to confirm and proceed with the destruction.
 
+# Conclusion
 
+Congratulations! You've successfully deployed a multi-tier architecture on AWS using Terraform. This setup offers a scalable and highly available infrastructure for your applications. Be sure to follow AWS best practices and security guidelines when deploying your production workloads.
 
 
 
