@@ -83,6 +83,8 @@ Follow these step-by-step instructions to deploy a three-tier architecture on AW
 
 1. Once deployment is complete, Terraform will provide the DNS name of the Elastic Load Balancer (ELB).
 
+![image](https://github.com/user-attachments/assets/01fa990f-9df2-4a4d-8e07-8cb7a6e8dbda)
+
 2. Copy the DNS name and paste it into your web browser.
 
 3. If everything is configured correctly, you should see the application running.
