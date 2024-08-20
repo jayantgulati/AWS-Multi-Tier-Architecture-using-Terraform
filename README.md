@@ -47,6 +47,17 @@ Follow these step-by-step instructions to deploy a three-tier architecture on AW
    
 6. Enter the access key ID and secret access key when prompted, and optionally set the default region.
 
+# Step 3: Initialize Terraform
+1. Install the terraform binary from the terraform official website (For windows). Download terraform as per your Operating 
+   system
+   https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
+2. Now copy and paste the binary in the project directory.
+3. Run the following command to fix any syntax issue
+
+   `terraform fmt`
+4. Run the following command to initialize Terraform and download the required providers:
+
+   `terraform init`
 
 
 
