@@ -48,16 +48,57 @@ Follow these step-by-step instructions to deploy a three-tier architecture on AW
 6. Enter the access key ID and secret access key when prompted, and optionally set the default region.
 
 # Step 3: Initialize Terraform
-1. Install the terraform binary from the terraform official website (For windows). Download terraform as per your Operating 
+1. Install the terraform binary from the terraform official website (For windows). Download terraform as per the Operating 
    system
+
    https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
-2. Now copy and paste the binary in the project directory.
-3. Run the following command to fix any syntax issue
+   
+3. Now copy and paste the binary in the project directory (For Windows OS only)
+4. Run the following command to fix any syntax issue
 
    `terraform fmt`
-4. Run the following command to initialize Terraform and download the required providers:
+5. Run the following command to initialize Terraform and download the required providers:
 
    `terraform init`
+   
+# Step 6: Review and Validate the Configuration
+
+1. To preview the changes that Terraform will make, run:
+
+   `terraform plan`
+   
+   Examine the output to ensure that the proposed infrastructure aligns with your expectations.
+
+# Step 7: Deploy the Infrastructure
+
+1. Deploy the infrastructure by running:
+
+   `terraform apply`
+
+   Terraform will present a summary of the changes to be applied. Type yes to confirm and initiate the deployment.
+2. Wait while Terraform provisions the infrastructure. This may take several minutes.
+
+# Step 8: Access the Application
+
+1. Once deployment is complete, Terraform will provide the DNS name of the Elastic Load Balancer (ELB).
+
+2. Copy the DNS name and paste it into your web browser.
+
+3. If everything is configured correctly, you should see the application running.
+
+# Step 9: Destroy the Infrastructure (Optional)
+
+To remove all resources created by Terraform, follow these steps:
+
+1. Navigate to the project directory in your terminal or command prompt.
+
+2. Run the following command to destroy the infrastructure:
+
+   `terraform destroy`
+
+3. Type yes to confirm and proceed with the destruction.
+
+
 
 
 
