@@ -24,4 +24,30 @@ In the Application tier,a backend auto-scaling group is established for the back
 
 Follow these step-by-step instructions to deploy a three-tier architecture on AWS using Terraform:
 
+# Step 1: Clone the Repository
+
+1. Open a terminal or command prompt on your local machine.
+2. Clone the repository containing the Terraform configuration files
+
+   `git clone https://github.com/AWS-Multi-Tier-Architecture-using-Terraform.git`
+
+3.  Change into the project directory
+
+    `cd AWS-Multi-Tier-Architecture-using-Terraform`
+   
+# Step 2: Configure AWS Credentials
+1. Open the AWS Management Console in your web browser.
+2. Navigate to the IAM service.
+3. Create a new IAM user or use an existing one.
+4. Assign the necessary permissions to the IAM user, such as AmazonEC2FullAccess, AmazonRDSFullAccess, AmazonVPCFullAccess, 
+    and ElasticLoadBalancingFullAccess.
+5. Generate an access key ID and secret access key for the IAM user.
+
+   `aws configure`
+   
+6. Enter the access key ID and secret access key when prompted, and optionally set the default region.
+
+
+
+
 
