@@ -87,6 +87,9 @@ Follow these step-by-step instructions to deploy a three-tier architecture on AW
 
 3. If everything is configured correctly, you should see the application running.
 
+![image](https://github.com/user-attachments/assets/5649c6e7-9a9a-4449-8e9a-9cab4fd6d125)
+
+
 # Step 9: Destroy the Infrastructure (Optional- It will save unneccessary cost)
 
 To remove all resources created by Terraform, follow these steps:
