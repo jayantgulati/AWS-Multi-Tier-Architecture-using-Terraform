@@ -65,7 +65,7 @@ Follow these step-by-step instructions to deploy a three-tier architecture on AW
 
    `terraform init`
    
-# Step 6: Review and Validate the Configuration
+# Step 4: Review and Validate the Configuration
 
 1. To preview the changes that Terraform will make, run:
 
@@ -73,7 +73,7 @@ Follow these step-by-step instructions to deploy a three-tier architecture on AW
    
    Examine the output to ensure that the proposed infrastructure aligns with your expectations.
 
-# Step 7: Deploy the Infrastructure
+# Step 5: Deploy the Infrastructure
 
 1. Deploy the infrastructure by running:
 
@@ -82,7 +82,7 @@ Follow these step-by-step instructions to deploy a three-tier architecture on AW
    Terraform will present a summary of the changes to be applied. Type yes to confirm and initiate the deployment.
 2. Wait while Terraform provisions the infrastructure. This may take several minutes.
 
-# Step 8: Access the Application
+# Step 6: Access the Application
 
 1. Once deployment is complete, Terraform will provide the DNS name of the Elastic Load Balancer (ELB).
 
@@ -95,7 +95,7 @@ Follow these step-by-step instructions to deploy a three-tier architecture on AW
 ![image](https://github.com/user-attachments/assets/5649c6e7-9a9a-4449-8e9a-9cab4fd6d125)
 
 
-# Step 9: Destroy the Infrastructure (Optional- It will save unneccessary cost)
+# Step 7: Destroy the Infrastructure (Optional- It will save unneccessary cost)
 
 To remove all resources created by Terraform, follow these steps:
 
